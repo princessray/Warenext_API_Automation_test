@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "56703570-c309-4f72-81af-9bd7a5a89660",
+		"name": "Back-end  Test:Signup as a developer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sign up warenext",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"princess\",\r\n    \"lastName\":\"obi\",\r\n    \"email\":\"obi@developer.com\",\r\n    \"telephone\":\"+234 8067899879\",\r\n    \"country\":\"NG\",\r\n    \"city\":\"Lagos\",\r\n    \"password\":\"Test@1234\",\r\n    \"type\":\"developer\",\r\n    \"referralId\":\"\",\r\n    \"source\":\"From an email\",\r\n    \"developer\":{ }\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-dev.warenext.ng/user/signup",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sign up warenext Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"princess\",\r\n    \"lastName\":\"obi\",\r\n    \"email\":\"obi@developer.com\",\r\n    \"telephone\":\"+234 8067899879\",\r\n    \"country\":\"NG\",\r\n    \"city\":\"Lagos\",\r\n    \"password\":\"Test@1234\",\r\n    \"type\":\"developer\",\r\n    \"referralId\":\"\",\r\n    \"source\":\"From an email\",\r\n    \"developer\":{ }\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-dev.warenext.ng/user/signup",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sign up warenext Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"princess\",\r\n    \"lastName\":\"obi\",\r\n    \"email\":\"obi@developer.com\",\r\n    \"telephone\":\"+234 8067899879\",\r\n    \"country\":\"NG\",\r\n    \"city\":\"Lagos\",\r\n    \"password\":\"Test@1234\",\r\n    \"type\":\"developer\",\r\n    \"referralId\":\"\",\r\n    \"source\":\"From an email\",\r\n    \"developer\":{ }\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-dev.warenext.ng/user/signup",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
