@@ -94,6 +94,66 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "update partner signup form",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"businessName\": \"test\",\"firstName\":\"demo2\",\"lastName\":\"developer\",\"email\":\"demo120@gmail.com\",\"telephone\":\"+234 8067899876\",\"country\":\"NG\",\"city\":\"\",\"password\":\"Olatoye1960!\",\"type\":\"vehicleManager\",\"referralId\":\"\",\"source\":\"From an email\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-dev.warenext.ng/user/signup",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Negative for update partner signup form",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"businessName\": \"test\",\"lastName\":\"developer\",\"email\":\"demo6@gmail.com\",\"telephone\":\"+234 8067899876\",\"country\":\"NG\",\"city\":\"\",\"password\":\"Olatoye1960!\",\"type\":\"vehicleManager\",\"referralId\":\"\",\"source\":\"From an email\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-dev.warenext.ng/user/signup",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
