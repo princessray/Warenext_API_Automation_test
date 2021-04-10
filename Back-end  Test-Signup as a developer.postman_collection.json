@@ -154,6 +154,176 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Login for warenext",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Access code",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-dev.warenext.ng/auth/getAccessToken?refreshToken=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJDZGxvZ0FTdU1SMThvNmZSWTlnRyIsImV4cCI6MTkzMzQ0Mjg4NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.v1rwbKsWxqXwkysbdD9S725-T4qXGWa6Xf0TXv8fQX4",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"auth",
+						"getAccessToken"
+					],
+					"query": [
+						{
+							"key": "refreshToken",
+							"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJDZGxvZ0FTdU1SMThvNmZSWTlnRyIsImV4cCI6MTkzMzQ0Mjg4NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.v1rwbKsWxqXwkysbdD9S725-T4qXGWa6Xf0TXv8fQX4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json.",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-dev.warenext.ng/auth/logout?refreshToken=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJDZGxvZ0FTdU1SMThvNmZSWTlnRyIsImV4cCI6MTkzMzQ0Mjg4NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.v1rwbKsWxqXwkysbdD9S725-T4qXGWa6Xf0TXv8fQX4",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"auth",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "refreshToken",
+							"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJDZGxvZ0FTdU1SMThvNmZSWTlnRyIsImV4cCI6MTkzMzQ0Mjg4NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.v1rwbKsWxqXwkysbdD9S725-T4qXGWa6Xf0TXv8fQX4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json.",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-dev.warenext.ng/auth/logout?refreshToken=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJIVFlndEozb2ZKQVR6azZ2d2RDVCIsImV4cCI6MTkzMzQ0MjU0NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.DXlBsWheR9KXHVrlnWNqedI6DNrOX7ruQG_cOqkwGXc",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"auth",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "refreshToken",
+							"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJIVFlndEozb2ZKQVR6azZ2d2RDVCIsImV4cCI6MTkzMzQ0MjU0NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.DXlBsWheR9KXHVrlnWNqedI6DNrOX7ruQG_cOqkwGXc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json.",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-dev.warenext.ng/auth/logout?refreshToken=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJIVFlndEozb2ZKQVR6azZ2d2RDVCIsImV4cCI6MTkzMzQ0MjU0NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.DXlBsWheR9KXHVrlnWNqedI6DNrOX7ruQG_cOqkwGXc",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"auth",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "refreshToken",
+							"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJIVFlndEozb2ZKQVR6azZ2d2RDVCIsImV4cCI6MTkzMzQ0MjU0NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.DXlBsWheR9KXHVrlnWNqedI6DNrOX7ruQG_cOqkwGXc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout Copy 3",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json.",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-dev.warenext.ng/auth/logout?refreshToken=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJIVFlndEozb2ZKQVR6azZ2d2RDVCIsImV4cCI6MTkzMzQ0MjU0NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.DXlBsWheR9KXHVrlnWNqedI6DNrOX7ruQG_cOqkwGXc",
+					"protocol": "https",
+					"host": [
+						"api-dev",
+						"warenext",
+						"ng"
+					],
+					"path": [
+						"auth",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "refreshToken",
+							"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkiLCJqdGkiOiJIVFlndEozb2ZKQVR6azZ2d2RDVCIsImV4cCI6MTkzMzQ0MjU0NiwidXNlcklkIjoiSVNzNlRmZUJ4bGowRnZKUVBzSVEiLCJyb2xlSWQiOjEwMCwiaXNSZWZyZXNoVG9rZW4iOnRydWV9.DXlBsWheR9KXHVrlnWNqedI6DNrOX7ruQG_cOqkwGXc"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
