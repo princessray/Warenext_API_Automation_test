@@ -324,6 +324,17 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Create A Warehouse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
 		}
 	]
 }
